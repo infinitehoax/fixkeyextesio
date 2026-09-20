@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "B and N Key Remapper",
+  "version": "1.0",
+  "description": "Remaps the ] key to B, and the / key to N.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
