@@ -1,11 +1,11 @@
-# B and N Key Remapper
+# Slash to N Remapper
 
-A Chrome extension that remaps the `]` key to `b`/`B` and the `/` key to `n`/`N`.
+A Chrome extension that remaps the `/` key to `n`/`N`, optimized for Discord and other rich text editors.
 
 ## Features
-- Remaps `]` to `b` (or `B` when Shift or CapsLock is active).
 - Remaps `/` to `n` (or `N` when Shift or CapsLock is active).
-- Works with modern web apps using `document.execCommand('insertText')`.
+- Optimized for Discord and rich text editors using `stopImmediatePropagation()`.
+- Supports standard input/textarea controls and contentEditable elements.
 
 ## Installation (Unpacked)
 1. Open Google Chrome and go to `chrome://extensions/`.

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "B and N Key Remapper",
-  "version": "1.0",
-  "description": "Remaps the ] key to B, and the / key to N.",
+  "name": "Slash to N Remapper",
+  "version": "1.1",
+  "description": "Remaps the Forward Slash (/) key to N, optimized for Discord.",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
